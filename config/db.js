@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const MONGO_URI = 'mongodb://Miguel:PwdMondongo@localhost:27017/sensores?authSource=admin';
 
+//configuracion
 const connectDB = async () => {
     try {
         await mongoose.connect(MONGO_URI);
